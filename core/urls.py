@@ -22,6 +22,17 @@ urlpatterns = [
     path('index/', views.index, name='index'),
     path('charts/flot/', views.charts_flot, name='charts_flot'),
     path('charts/morris/', views.charts_morris, name='charts_morris'),
+    path('tables/', views.tables, name='tables'),
+    path('forms/', views.forms, name='forms'),
+    path('ui/panels-wells/', views.ui_panels_wells, name='ui_panels-wells'),
+    path('ui/buttons/', views.ui_buttons, name='ui_buttons'),
+    path('ui/notifications/', views.ui_notifications, name='ui_notifications'),
+    path('ui/typography/', views.ui_typography, name='ui_typography'),
+    path('ui/icons/', views.ui_icons, name='ui_icons'),
+    path('ui/grid/', views.ui_grid, name='ui_grid'),
+    path('samples/blank/', views.samples_blank, name='samples_blank'),
+    path('samples/login/', views.samples_login, name='samples_login'),
+
 
 
     path('admin/', admin.site.urls),
